@@ -6,6 +6,14 @@ A real-time Pokemon-themed monitoring dashboard and interactive office view for 
 ![Pokemon Office](https://img.shields.io/badge/pokemon-office-yellow)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+![](https://github.com/a1245582339/picx-images-hosting/raw/master/ScreenShot_2026-03-04_120641_447.ico03nfm8.png)
+
+## Inspiration
+
+This project is inspired by [Pixel Agents](https://github.com/pablodelucca/pixel-agents), a brilliant VS Code extension that turns AI coding agents into animated pixel art characters in a virtual office. We loved the idea and wanted to take it further — as a tribute to the classic Pokemon games, agents in this project are represented by Pokemon that walk around, sit at desks, and return to their Pokeballs.
+
+The office map is fully customizable via a JSON config file, so you can design your own pixel-art workspace. We also welcome contributions — feel free to submit a PR to add more Pokemon, create new maps, or expand the project in any way you like!
+
 ## Features
 
 - **Dashboard** — Real-time overview of all agents: status, active sessions, token usage, and subagent runs.
