@@ -1,0 +1,33 @@
+{
+  "id": "pokemon-claw-monitor",
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "port": {
+        "type": "number",
+        "description": "HTTP server port for the monitor dashboard (default: 3060)"
+      },
+      "pollInterval": {
+        "type": "number",
+        "description": "Agent status polling interval in milliseconds (default: 3000)"
+      },
+      "pokemon": {
+        "type": "object",
+        "description": "Agent to Pokemon mapping. Keys are agent IDs, values are Pokemon Pokedex numbers (1-151).",
+        "additionalProperties": {
+          "type": "number"
+        }
+      }
+    }
+  },
+  "uiHints": {
+    "port": {
+      "label": "Dashboard Port",
+      "placeholder": "3060"
+    },
+    "pollInterval": {
+      "label": "Poll Interval (ms)",
+      "placeholder": "3000"
+    }
+  }
+}
